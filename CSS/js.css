@@ -1,0 +1,12 @@
+.name{
+    color:red;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    height:300px
+}
+.bio{
+    color:green;
+    background-color: black;
+    cursor: pointer;
+}
