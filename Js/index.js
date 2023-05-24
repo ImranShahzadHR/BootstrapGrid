@@ -26,24 +26,46 @@
 // let 
 // const 
 // var
-function arslan(){
- for(let j=1;j<=10;j++){
+// function arslan(){
+//  for(let j=1;j<=10;j++){
 
 
-  const para=document.createElement('h1')
-  para.innerHTML="Today is our Second Javascript Class. And we are learning basic concepts in JavaScript"
-  para.style.color="red"
-  document.body.appendChild(para)
+//   const para=document.createElement('h1')
+//   para.innerHTML="Today is our Second Javascript Class. And we are learning basic concepts in JavaScript"
+//   para.style.color="red"
+//   document.body.appendChild(para)
+//   }
+// } 
+
+// const students=["Hassan","Afnan","Ali","Ibrahim","hussnain"]
+// console.log(students);
+
+
+// for(let i=0;i<3;i++){
+//   const title=document.createElement('h1')
+//   title.innerHTML=students[i];
+//   document.body.appendChild(title)
+// }
+
+// Create a Simple function that will render the array of months on a button click event
+
+
+const months=["January","February","March","April","May","June","July","August","September","October","November","December","asada"];
+
+function renderMonth(){
+  for(let i=0;i<months.length;i++){
+    const monthName=document.createElement('div')
+    monthName.innerHTML="Month name is:" + months[i];
+    monthName.classList.add('monthName')
+    document.body.appendChild(monthName)
   }
-} 
+}
 
 
 
-
-
-
-
-
+// let a=5;
+// a=90;
+// console.log(a);
 
 
 
